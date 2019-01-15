@@ -1,0 +1,10 @@
+/.idea
+/.env
+coverage
+*.iml
+.codeclimate
+.editorconfig
+.eslintrc.yml
+.gitattributes
+.gitignore
+README.md

@@ -1,0 +1,15 @@
+extends: airbnb-base
+plugins:
+  - import
+rules:
+  no-underscore-dangle: off
+globals:
+  expect: on
+  process: on
+  describe: on
+  before: on
+  after: on
+  beforeEach: on
+  suite: on
+  test: on
+  it: on

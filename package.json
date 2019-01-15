@@ -1,0 +1,26 @@
+{
+  "name": "payowl",
+  "description": "Detect websites protected by paywall applications",
+  "version": "0.1.0",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "conditional-race": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  }
+}
