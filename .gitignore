@@ -3,4 +3,3 @@
 /coverage
 *.iml
 .env
-package-lock.json
